@@ -1133,8 +1133,15 @@ section {
   width: 120px;
 }
 
-.languages .items>i {
-  color: #36D7B7;
+.skill-item-group {
+  display: flex;
+}
+
+.skill-item-group > div {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  text-align: center;
 }
 
 .library .items>i {
