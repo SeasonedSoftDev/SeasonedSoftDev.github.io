@@ -269,18 +269,19 @@ h6 {
   min-width: 300px;
 }
 
-#hero h1, h2 {
+#hero h2, h3 {
   margin: 0 0 10px 0;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 45px;
   color: #F7CA18;
   text-shadow: 1px 1px 2px #555;
   opacity: .75;
 }
 
-#hero h2 {
-  font-size: 35px;
+#hero h3 {
+  font-size: 30px;
+  line-height: 35px;
 }
 
 #hero p {
@@ -447,6 +448,7 @@ section {
   display: block;
   background: none;
   border-radius: 0;
+  font-weight: bold;
 }
 
 .skills .progress .skill {
